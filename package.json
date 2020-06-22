@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/bailicangdu/pxq#readme",
   "dependencies": {
-    "github-markdown-css": "^2.4.0",
+    "github-markdown-css": "^4.0.0",
     "immutable": "^3.8.1",
     "isomorphic-fetch": "^2.2.1",
     "normalize.css": "^4.1.1",
