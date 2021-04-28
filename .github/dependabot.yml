@@ -1,0 +1,35 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: http-proxy-middleware
+    versions:
+    - 1.0.6
+    - 1.1.0
+    - 1.1.1
+    - 1.1.2
+    - 1.2.0
+  - dependency-name: react-redux
+    versions:
+    - 5.1.2
+    - 7.2.2
+    - 7.2.3
+  - dependency-name: node-sass
+    versions:
+    - 4.14.1
+  - dependency-name: style-loader
+    versions:
+    - 0.23.1
+  - dependency-name: url-loader
+    versions:
+    - 0.6.2
+  - dependency-name: webpack-dev-server
+    versions:
+    - 1.16.5
+  - dependency-name: file-loader
+    versions:
+    - 0.11.2
